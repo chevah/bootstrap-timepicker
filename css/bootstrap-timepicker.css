@@ -11,13 +11,8 @@
 .bootstrap-timepicker {
   position: relative;
 }
-.bootstrap-timepicker .add-on {
+.bootstrap-timepicker .bootstrap-timepicker-trigger {
   cursor: pointer;
-}
-.bootstrap-timepicker .add-on i {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
 }
 .bootstrap-timepicker-widget.pull-right.dropdown-menu {
   left: auto;
