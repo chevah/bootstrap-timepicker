@@ -11,18 +11,6 @@
 .bootstrap-timepicker {
   position: relative;
 }
-.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu {
-  left: auto;
-  right: 0;
-}
-.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:before {
-  left: auto;
-  right: 12px;
-}
-.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:after {
-  left: auto;
-  right: 13px;
-}
 .bootstrap-timepicker .add-on {
   cursor: pointer;
 }
@@ -30,6 +18,18 @@
   display: inline-block;
   width: 16px;
   height: 16px;
+}
+.bootstrap-timepicker-widget.pull-right.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.bootstrap-timepicker-widget.pull-right.dropdown-menu:before {
+  left: auto;
+  right: 12px;
+}
+.bootstrap-timepicker-widget.pull-right.dropdown-menu:after {
+  left: auto;
+  right: 13px;
 }
 .bootstrap-timepicker-widget.dropdown-menu {
   padding: 2px 3px 2px 2px;
